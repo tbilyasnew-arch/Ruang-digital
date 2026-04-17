@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ruang Digital - Portfolio</title>
+<title>Ruang Digital</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -21,25 +21,36 @@ body{
   padding:20px;
 }
 
-.header{
+/* HERO */
+.hero{
   text-align:center;
-  padding:70px 20px;
+  padding:80px 20px;
   background:linear-gradient(135deg,#6366f1,#06b6d4);
   border-radius:20px;
   color:white;
-  box-shadow:0 10px 40px rgba(0,0,0,0.4);
 }
 
-.header h1{
+.hero h1{
+  font-size:45px;
   margin:0;
-  font-size:40px;
 }
 
-.header p{
-  margin-top:10px;
+.hero p{
+  margin:10px 0 20px;
   opacity:0.9;
 }
 
+.btn-main{
+  display:inline-block;
+  padding:15px 25px;
+  background:white;
+  color:#6366f1;
+  border-radius:10px;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+/* CARD */
 .section{
   margin-top:40px;
 }
@@ -49,162 +60,133 @@ body{
   padding:25px;
   border-radius:15px;
   box-shadow:0 5px 25px rgba(0,0,0,0.3);
-  transition:0.3s;
-}
-
-.card:hover{
-  transform:translateY(-5px);
 }
 
 h2{
   border-left:5px solid #6366f1;
-  padding-left:12px;
-  margin-bottom:15px;
+  padding-left:10px;
 }
 
-ul{
-  padding-left:20px;
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
 }
 
-li{
-  margin-bottom:8px;
+/* ITEM */
+.item{
+  background:#020617;
+  padding:20px;
+  border-radius:12px;
 }
 
 .btn{
   display:inline-block;
-  margin-top:15px;
-  padding:12px 18px;
+  margin-top:10px;
+  padding:10px 15px;
   background:linear-gradient(135deg,#6366f1,#06b6d4);
   color:white;
-  border-radius:10px;
+  border-radius:8px;
   text-decoration:none;
-  font-weight:bold;
-  transition:0.3s;
 }
 
-.btn:hover{
-  opacity:0.8;
-}
-
+/* CONTACT */
 .contact a{
   display:block;
   margin:8px 0;
   color:#38bdf8;
-  text-decoration:none;
 }
 
+/* FOOTER */
 .footer{
   text-align:center;
   margin-top:50px;
   padding:20px;
-  background:#020617;
-  border-radius:10px;
   color:#94a3b8;
 }
-
 </style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-<div class="header">
-<h1>🌟 PORTFOLIO – RUANG DIGITAL</h1>
-<p>Dari Konten Menjadi Komisi</p>
+<!-- HERO -->
+<div class="hero">
+<h1>🚀 RUANG DIGITAL</h1>
+<p>Bangun Personal Branding & Hasilkan Cuan dari Affiliate</p>
+
+<a href="https://lynk.id/ruang_digital_store" target="_blank" class="btn-main">
+🔥 Lihat Produk Digital
+</a>
 </div>
 
+<!-- PROFIL -->
 <div class="section card">
 <h2>👤 Profil</h2>
-<p>Ruang Digital adalah platform personal branding yang berfokus pada affiliate marketing melalui Shopee dan TikTok, serta pengembangan produk digital kreatif seperti e-book, template desain, bank konten video, dan desain grafis. Platform ini didirikan oleh Muhammad Nafis Izzuddin, seorang mahasiswa Sistem Informasi yang memiliki minat besar dalam dunia digital kreatif dan teknologi.</p>
-
-<p>Melalui Ruang Digital, saya berbagi rekomendasi produk yang jujur dan informatif, sekaligus menyediakan berbagai produk digital yang praktis dan bermanfaat bagi generasi Gen Z. Platform ini bertujuan untuk membantu audiens menemukan solusi digital sekaligus membuka peluang penghasilan di era teknologi yang terus berkembang.</p>
+<p>
+Ruang Digital adalah platform personal branding yang berfokus pada affiliate marketing melalui Shopee dan TikTok, serta pengembangan produk digital kreatif seperti e-book, template desain, bank konten video, dan desain grafis.
+</p>
 </div>
 
+<!-- KEAHLIAN -->
 <div class="section card">
-<h2>🎯 Visi</h2>
-<p>Menjadi platform personal branding yang terpercaya dalam memberikan rekomendasi produk dan solusi digital kreatif bagi generasi Gen Z di Indonesia.</p>
-</div>
-
-<div class="section card">
-<h2>🚀 Misi</h2>
+<h2>🛠️ Keahlian</h2>
 <ul>
-<li>Menyediakan rekomendasi produk yang jujur dan informatif melalui program Shopee Affiliate dan TikTok Shop Affiliate.</li>
-<li>Mengembangkan produk digital yang kreatif, praktis, dan bermanfaat bagi audiens.</li>
-<li>Menyajikan konten edukatif tentang bisnis digital dan personal branding.</li>
-<li>Membangun komunitas yang inspiratif dan kolaboratif.</li>
-<li>Menjaga konsistensi serta kualitas konten untuk meningkatkan kepercayaan audiens.</li>
+<li>Content Writing & Copywriting AI</li>
+<li>Video Editing AI</li>
+<li>Affiliate Marketing</li>
+<li>Digital Product Creation</li>
 </ul>
 </div>
 
-<div class="section card">
-<h2>🛠️ Daftar Keahlian</h2>
-
-<p><b>✍️ Content Writing & Copywriting Berbasis AI</b></p>
-<p>Menulis deskripsi produk dan naskah promosi yang persuasif serta SEO-friendly dengan bantuan teknologi Artificial Intelligence seperti ChatGPT dan Canva Docs.</p>
-
-<p><b>🎬 Video Editing Berbasis AI</b></p>
-<p>Mengedit video promosi dan konten media sosial menggunakan tools seperti CapCut, Veo, dan Leonardo AI.</p>
-
-<p><b>🔗 Affiliate Marketing (Shopee & TikTok)</b></p>
-<p>Mempromosikan produk serta meningkatkan konversi penjualan.</p>
-
-<p><b>📊 Digital Product Creation</b></p>
-<p>Membuat e-book, template desain, dan produk digital lainnya.</p>
-
-</div>
-
-<div class="section card">
-<h2>💡 Nilai dan Keunggulan</h2>
-<ul>
-<li>Kejujuran</li>
-<li>Kreativitas</li>
-<li>Konsistensi</li>
-<li>Informatif</li>
-<li>Inovatif</li>
-</ul>
-</div>
-
-<div class="section card">
-<h2>🎨 Layanan yang Ditawarkan</h2>
-<ul>
-<li>Promosi Produk Affiliate</li>
-<li>Pembuatan Konten Digital</li>
-<li>Penjualan Produk Digital</li>
-<li>Kolaborasi & Endorsement</li>
-<li>Edukasi Bisnis Digital</li>
-</ul>
-</div>
-
-<div class="section card">
+<!-- PORTFOLIO -->
+<div class="section">
 <h2>🖼️ Portfolio</h2>
 
-<p><b>🛍️ Konten Affiliate Shopee</b></p>
-<p>Konten rekomendasi produk dengan strategi konversi.</p>
+<div class="grid">
 
-<p><b>🎬 Konten Affiliate TikTok</b></p>
-<p>Video promosi kreatif berbasis tren.</p>
-
-<p><b>📚 Produk Digital</b></p>
-<ul>
-<li>E-book</li>
-<li>Template Desain</li>
-<li>Bank Konten Video</li>
-</ul>
-
-<a href="https://lynk.id/ruang_digital_store" target="_blank" class="btn">
-🚀 Lihat Produk Digital
-</a>
-
+<div class="item">
+<h3>🛍️ Shopee Affiliate</h3>
+<p>Rekomendasi produk dengan konversi tinggi</p>
+<a href="https://s.id/saluran_wa" target="_blank" class="btn">Lihat</a>
 </div>
 
+<div class="item">
+<h3>🎬 TikTok Affiliate</h3>
+<p>Video promosi viral berbasis tren</p>
+<a href="https://s.id/zona_spill" target="_blank" class="btn">Lihat</a>
+</div>
+
+<div class="item">
+<h3>📚 Produk Digital</h3>
+<p>E-book, template & bank konten</p>
+<a href="https://lynk.id/ruang_digital_store" target="_blank" class="btn">Beli</a>
+</div>
+
+</div>
+</div>
+
+<!-- CTA -->
+<div class="section card" style="text-align:center">
+<h2>🔥 Siap Mulai?</h2>
+<p>Mulai bangun personal branding & penghasilan digital sekarang</p>
+
+<a href="https://lynk.id/ruang_digital_store" target="_blank" class="btn-main">
+🚀 Akses Produk Digital
+</a>
+</div>
+
+<!-- KONTAK -->
 <div class="section card contact">
 <h2>📞 Kontak</h2>
 <a href="mailto:nafisizzuddin05@email.com">📧 Email</a>
-<a href="https://s.id/zona_spill" target="_blank">🎵 TikTok</a>
-<a href="https://s.id/nafis_digital" target="_blank">📸 Instagram</a>
-<a href="https://s.id/nafis_izzudin" target="_blank">📘 Facebook</a>
-<a href="https://s.id/saluran_wa" target="_blank">💬 WhatsApp</a>
+<a href="https://s.id/zona_spill">🎵 TikTok</a>
+<a href="https://s.id/nafis_digital">📸 Instagram</a>
+<a href="https://s.id/nafis_izzudin">📘 Facebook</a>
+<a href="https://s.id/saluran_wa">💬 WhatsApp</a>
 </div>
 
 <div class="footer">
